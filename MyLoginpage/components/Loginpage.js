@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, TextInput, Button, StyleSheet, TouchableOpacity } from 'react-native';
-import { useNavigation } from '@react-navigation/native'; // Import useNavigation hook
+import { useNavigation } from '@react-navigation/native'; 
 
 const Loginpage = ({ navigation }) => {
   // const navigation = useNavigation();
