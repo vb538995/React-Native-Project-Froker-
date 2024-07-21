@@ -63,7 +63,7 @@ const Dmm = () => {
       </View>
       <FlatList
         data={DUMMY_POSTS}
-        numColumns={NUM_POSTS_PER_ROW} // Set number of columns
+        numColumns={NUM_POSTS_PER_ROW}
         keyExtractor={(item, index) => index.toString()}
         renderItem={renderPost}
         contentContainerStyle={styles.postsList}
@@ -75,7 +75,7 @@ const Dmm = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#000', // Example background color
+    backgroundColor: '#000',
   },
   topSection: {
     marginTop: 90,
@@ -112,7 +112,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   sta: {
-    marginLeft: 20, // Adjust margin for spacing between stats
+    marginLeft: 20, 
   },
   stat: {
     color: 'white',
