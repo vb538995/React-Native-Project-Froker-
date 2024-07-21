@@ -1,8 +1,7 @@
 import React from 'react';
 import { View, Text, FlatList, Image, StyleSheet } from 'react-native';
 
-const NUM_POSTS_PER_ROW = 2; // Number of posts to render in each row
-
+const NUM_POSTS_PER_ROW = 2; 
 const DUMMY_POSTS = [
   { image: require('@/assets/post1.jpg'), caption: 'This is a post!' },
   { image: require('@/assets/post2.jpg'), caption: 'This is a post!' },
