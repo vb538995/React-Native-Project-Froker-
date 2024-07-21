@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     padding: 20,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'white', // Assuming a black background
+    backgroundColor: 'white',
   },
   title: {
     color: 'black',
