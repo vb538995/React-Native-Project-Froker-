@@ -7,7 +7,7 @@ const DUMMY_PROFILES = [
     name: 'Vaibhav Kumar Bhardwaj', 
     image: require('@/assets/profile1.jpg') 
     }
-  // Add objects here with properties like: { name: 'John Doe', image: require('./assets/profile1.jpg') }
+  
 ];
 
 const DUMMY_POSTS = [
@@ -16,14 +16,14 @@ const DUMMY_POSTS = [
     image: require('@/assets/post1.jpg'), 
     caption: 'My Friend Earn a LeetCode badge for 50 Days of solving programing questions.Congratulations Vaibhav ' 
     }
-  // Add objects here with properties like: { user: 'Alice', image: require('./assets/post1.jpg'), caption: 'This is a post!' }
+  
 ];
 
 const DUMMY_SUGGESTIONS = [
     { 
         name: 'Aman Kumar', 
         image: require('@/assets/profile2.jpg') }
-  // Add objects here with properties like: { name: 'Jane Doe', image: require('./assets/profile2.jpg') }
+  
 ];
 
 const Homepage = ({ navigation }) => {
@@ -43,10 +43,7 @@ const Homepage = ({ navigation }) => {
     <Text style={styles.postCaption}>{item.user}: {item.caption}</Text>
   </View>
 </View>
-    // <View style={styles.post}>
-    //   <Image source={item.image} style={styles.postImage} />
-    //   <Text style={styles.postCaption}>{item.user}: {item.caption}</Text>
-    // </View>
+    
   );
 
   const renderSuggestion = ({ item }) => (
@@ -117,13 +114,13 @@ const styles = StyleSheet.create({
   postImage: {
     width: '100%',
     height: '100',
-    aspectRatio: 0.5, // Maintain aspect ratio for images
+    aspectRatio: 0.5, 
   },
   postCaption: {
     color:'white',
   },
   postContent: {
-    flex: 1, // Allows caption to use remaining space
+    flex: 1,
     padding: 10,
   },
   sectionHeader: {
