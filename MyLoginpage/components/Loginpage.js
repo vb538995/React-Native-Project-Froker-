@@ -6,12 +6,12 @@ const Loginpage = ({ navigation }) => {
   // const navigation = useNavigation();
 
   const handleLogin = () => {
-    // Navigate to Homepage screen
+    
     navigation.navigate('Homepage');
   };
 
   const handleSignUp = () => {
-    // Navigate to SignUp screen
+    
     navigation.navigate('SignUp');
   };
 
